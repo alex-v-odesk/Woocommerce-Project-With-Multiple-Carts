@@ -1,0 +1,800 @@
+/*
+Theme Name: Twenty Seventeen
+Author: RP Linuxbean
+Text Domain: twentyseventeen
+*/
+
+/*Custom Style*/
+.icon_big_heart_plus {
+    background: url(../images/icon_big_heart_plus.png) center no-repeat;
+    background-size: 48px 42px;
+    width: 48px;
+}
+.user-icon{
+    padding:0px!important;
+}
+.mobile_header{padding: 0px;}
+
+.mobile_header .custom-menu ul > li > ul.sub-menu li a{
+    font-family: 'ProximaNova-Regular';
+}
+.custom-menu ul > li > ul.sub-menu li.current-menu-item > a {
+    color: #971a4a;
+}
+
+.required {
+    color: red;
+    font-weight: 700;
+    border: 0;
+}
+.rploginbtnBox input[type='submit']{
+    
+    background: #971a4a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.lost_password a{  
+    color: #000;
+    font-family: 'ProximaNova-Semibold';
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+.slick-prev {
+    background: url(assets/images/left-arrow.png) !important;
+    background-size: 100% !important;
+}
+.slick-next {
+    background: url(assets/images/right-arrow.png) !important;
+    background-size: 100% !important;
+}
+
+
+#signoutpop button.btn.cancle_btn {
+    background: transparent;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    padding: 5px 40px;
+    display: inline-block;
+    border: 2px solid #971a4a;
+    font-weight: 700;
+}
+#signoutpop a.btn.logout_btn {
+    background: #971a4a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    padding: 6px 40px;
+    display: inline-block;
+}
+
+.breadcrumb,.breadcrumb a {
+
+    text-transform:capitalize;
+}
+
+p.stock.out-of-stock {
+    background: #971a4a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 0px;
+    padding: 10px 40px;
+    display: inline-block;
+    margin-top: 20px;
+    top:37%;
+    left: 0;
+}
+
+select.orderby {
+    float: right;
+}
+.select{float: left;}
+select.dropdown_product_cat,select.orderby,select#bytag {
+    z-index: 999;
+    margin: 0 0;
+    padding: 7px;
+    list-style: none;
+    border: 1px solid #000;
+    background-color: white;
+    font-family: 'ProximaNova-Semibold';
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+select.dropdown_product_cat option,select.orderby option,select#bytag option {
+    padding: 0 10px;
+    font-family: 'ProximaNova-Semibold';
+    font-size: 15px;
+    outline: none;
+}
+select.dropdown_product_cat option:hover,select.orderby:hover {
+    background-color: transparent!important;
+    color: #000!important;
+    outline: none;
+    
+}
+.select{min-width: 220px;}
+
+
+
+select {
+        /*for firefox*/
+        -moz-appearance: none;
+        /*for chrome*/
+        -webkit-appearance:none;
+      }
+
+/*for IE10*/
+select::-ms-expand {
+    display: none;
+}
+
+.rpbanner{
+    position: relative;
+    background: url(assets/images/catalog_banner.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    min-height: 250px;
+    margin-top: 25px;
+}
+
+.rptitle {
+    color: #000!important;
+    font-size: 90px!important;
+   
+    font-family: 'de-novembre'!important;
+    margin-bottom: 10px;
+    line-height: 80px!important;
+}
+.rpsubtitle {
+    font-size: 23px!important;
+    color: #000!important;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    margin-bottom: 25px;
+    font-family: 'ProximaNova-Semibold'!important;
+}
+.rpsubtitle-small {
+    font-size: 23px!important;
+    color: #000!important;
+    text-transform: capitalize!important;
+    font-weight: 600!important;
+    margin-bottom: 25px;
+    font-family: 'ProximaNova-Bold'!important;
+}
+.rpsubtitle-color {
+    font-size: 23px!important;
+    color: #971a4a;
+    text-transform: uppercase!important;
+    font-weight: 600!important;
+    margin-bottom: 25px;
+    font-family: 'ProximaNova-Bold'!important;
+}
+.rpbutton{    
+    color: #971a4a!important;
+    background: transparent!important;
+    text-transform: uppercase!important;
+    font-size: 18px!important;
+    letter-spacing: 1px!important;
+    border-radius: 0px!important;
+    padding: 10px 40px!important;
+    display: inline-block!important;
+    margin-top: 20px!important;
+    top: 30%;
+    border: 2px solid #971a4a!important;
+    font-family: 'ProximaNova-Semibold'!important;
+    text-align: center;
+}
+.rpbutton:hover {    
+    background: #971a4a!important;
+    color: #fff!important;
+}
+.rpbutton-black{
+    text-transform: uppercase!important;
+    background: #fff!important;
+    font-size: 18px!important;
+    border: 2px solid #000!important;
+    padding: 10px 30px!important;
+    display: inline-block!important;
+    font-family: 'ProximaNova-Bold'!important;
+    color: #000!important;
+    letter-spacing: 1px!important;
+    margin-top: 20px!important;
+    transition-duration: .3s;
+    -webkit-transition-duration: .3s!important;
+    -moz-transition-duration: .3s!important;
+    transition-timing-function: ease-in-out!important;
+    -webkit-transition-timing-function: ease-in-out!important;
+    -moz-transition-timing-function: ease-in-out!important;
+}
+.rpbutton-black:hover{
+    background: #000!important;
+    color: #fff!important;
+}
+.selectcarat{
+float: left;
+position: relative;
+}
+.selectcarat:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: transparent transparent transparent black;
+    position: absolute;
+    top: 12px;
+    left: 7px;
+}
+
+/*****************************************Woocommerce******************************/
+select#select_shipping_address_nickname {
+    height: 44px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+.view-all a {
+    color: #000;
+    font-size: large;
+}
+.same_cat_product_error{
+	font-weight: 700;
+	font-size: 20px;
+	color: #971a4a;
+}
+.woocommerce .woocommerce-customer-details address{border: none;}
+.woocommerce-ordering{float: right;}
+.woocommerce-pagination{float: right;}
+.woocommerce-pagination ul{float: right;}
+.woocommerce-pagination ul li{display: inline-block;}
+.woocommerce-pagination ul.page-numbers,.woocommerce-pagination ul.page-numbers a {
+    color: #000;
+    font-size: 22px;
+}
+.woocommerce-pagination ul.page-numbers .current {
+    color: #971a4a;
+    font-size: 22px;
+}
+
+/*********************************** Archive and shop start ******************************/
+.added_to_cart.wc-forward {
+    font-size: 14px;
+}
+
+/*********************************** Archive and shop end ******************************/
+
+/******************************single product start**********************************/
+
+img.attachment-shop_single.size-shop_single.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+/***********---------------single product end----------------*************************/
+
+
+/*********************************Password reset and Passord lost**************************/
+.woocommerce-ResetPassword{
+    font-family: 'ProximaNova-Semibold';
+    margin-bottom: 100px;
+}
+.woocommerce-ResetPassword h2.woo-lost-password {
+    color: #000;
+    font-family: 'ProximaNova-Semibold';
+    text-transform: uppercase;
+}
+
+.woocommerce-ResetPassword p{
+    font-family: 'ProximaNova-Semibold';
+    font-size: 18px;
+}
+.woocommerce-ResetPassword input[type=email],.woocommerce-ResetPassword input[type=password] {
+    height: 38px;
+    border: 1px solid;
+    font-family: 'ProximaNova-Semibold';
+}
+
+.woocommerce-ResetPassword input.woocommerce-Button.button {
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: inherit;
+    color: #000;
+    width: 150px;
+    margin-top: 30px;
+}
+.woocommerce-ResetPassword input.woocommerce-Button.button:hover {
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: inherit;
+    color: #fff;
+}
+
+.woocommerce-error {
+    border-top-color: transparent;
+    padding: 0;
+    color: #971a4a;
+}
+.woocommerce-error:before {
+   display: none;    
+}
+/****************-----------------Password reset and password lost end--------------********/
+/*************************************cart start**************************************/
+a.button.wc-backward{
+     background-color: transparent;
+    border: 2px solid #000;
+    border-radius: inherit;
+    color: #000;
+    width: 175px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    text-align: center;
+}
+a.button.wc-backward:hover{
+    background-color: #000;
+    border: 2px solid #000;
+    border-radius: inherit;
+    color: #fff;
+}
+a.button.wc-backward:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: rgba(51, 51, 51, 0) rgb(0, 0, 0) transparent rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+a.button.wc-backward:hover:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: rgba(51, 51, 51, 0) #ebe9eb transparent rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+.cart_totals.calculated_shipping {
+    width: 100%!important;
+}
+.woocommerce-cart-form .cart_totals {width: 100%!important;}
+.woocommerce-cart-form  table.shop_table_responsive,
+.woocommerce-cart-form  table.shop_table_responsive td,
+.woocommerce-cart-form  table.shop_table_responsive th
+{border: none;}
+.woocommerce-cart-form table.shop_table_responsive {
+    border: none;
+}
+
+
+@media only screen and (max-width:480px){
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover 
+ .product-thumbnail.width_td{width: 100%!important;}
+.woocommerce-cart-form .cart_btn .button{width: 100%;}
+
+}
+
+
+@media only screen and (min-width:481px)and (max-width:768px){
+.woocommerce-cart-form  .shop_table_responsive.table.table-striped.table-hover tr {
+    position: relative;
+}
+.woocommerce-cart-form  .product-quantity {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    width: 40%;
+}
+.woocommerce-cart-form  .product-price {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 40%;
+}
+.woocommerce-cart-form  .product-subtotal {
+    position: absolute;
+    right: 0;
+    top: 60%;
+    width: 40%;
+}
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover .product-thumbnail.width_td{
+    width: 50%;
+    }    
+   
+}
+@media only screen and (max-width:768px){
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover .product-thumbnail.width_td{
+    display:block!important;
+    }
+  .woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover tbody tr:nth-child(2n){
+background:#efecea;
+}
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover tr{
+margin-top:20px;
+}
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover .table_prod_desc{text-align: left!important;}
+.woocommerce-cart-form .shop_table_responsive.table.table-striped.table-hover .table_prod_desc a{text-decoration: none;color: #000;} 
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before {
+    content: attr(data-title) " ";
+    }   
+}
+
+
+.woocommerce-message {
+    border-top-color: #a46497;
+}
+
+/*************************---------------cart end-----------------************/
+
+/***************************My account login start**********************************/
+form.woocomerce-form.woocommerce-form-login.login {
+    border: none;
+}
+.woocommerce-form-login label{
+    font-family: 'ProximaNova-Regular';
+}
+.woocommerce-form-login input[type='text'],.woocommerce-form-login input[type='email'],
+.woocommerce-form-login input[type='password']{
+    height: 44px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+/*******************--------------My account login end--------------------*************/
+
+/************************************My account start************************************/
+.rpmyaccount-navigations .gallery_grid img:hover {
+    opacity: .8;
+}
+.woocommerce-MyAccount-navigation{display: none;}
+.myaccountHeading{
+    text-transform: uppercase;
+    color: #000;
+    font-family: 'ProximaNova-Semibold';
+}
+.rpmyaccount, .rpmyaccount p {
+        font-family: 'ProximaNova-Regular';
+        font-size: 16px;
+        color: #000;
+}
+.rpmyaccount .gallery_grid p{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'ProximaNova-Bold';
+}
+hr.main{background:#afa198!important;height:6px!important;margin-top: 2px!important;}
+.rpmyaccount hr{background:#ccc;height:2px;margin: 2px 0px 50px;}
+.rpmyaccount input[type='text'],.rpmyaccount input[type='email'],
+.rpmyaccount input[type='password'],.rpmyaccount input[type='tel']{
+    height: 35px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+.rpmyaccount-navigations div{margin-top: 10px;}
+
+.woocommerce-MyAccount-content input[type='text'], .woocommerce-MyAccount-content input[type='email'], .woocommerce-MyAccount-content input[type='password'], .woocommerce-MyAccount-content input[type='tel'], .woocommerce-MyAccount-content textarea, .woocommerce-MyAccount-content select {
+    height: 44px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+/***********---------------------My account end-----------------*****************/
+
+/******************************My account deshboard start*********************/
+.dashboard input[type='email'],.dashboard input[type='password']{
+    border: none;
+    font-family: 'ProximaNova-Regular';
+}
+.dashboard hr{background:#ddd;height:2px;margin-top: 2px;}
+.dashboard p{margin: 0 0 2px;}
+.dashboard .rp-table-side-heading {
+    width: 100px;
+}
+/******************------------My account deshboard end-----------------*******************/
+
+
+/****************************My account setting*****************************************/
+.woocommerce-EditAccountForm label{
+    font-family: 'ProximaNova-Regular';
+}
+.woocommerce-EditAccountForm input[type='text'],.woocommerce-EditAccountForm input[type='email'],
+.woocommerce-EditAccountForm input[type='password']{
+    height: 35px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+
+/*******************-------------------------My account setting end----------************/
+/*My account billing address start*/
+
+/*My account billing address end*/
+
+/***************************************order page start************************************/
+.woocommerce-orders-table__cell-order-actions a.view{
+    color: #000;    
+}
+.woocommerce-orders-table__cell-order-actions a.view:hover{
+    background: #971a4a;
+    color: #fff;
+    border-radius: 0;
+}
+td.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number a {
+    color: #000;
+}
+/*********---------------------------------Order page end--------------------------************/
+
+
+
+/**************************Checkout page style start*****************************/
+
+
+.woocommerce-checkout label{
+    font-family: 'ProximaNova-Regular';
+}
+.woocommerce-checkout input[type='text'],.woocommerce-checkout input[type='email'],
+.woocommerce-checkout input[type='password'],.woocommerce-checkout input[type='tel'],
+.woocommerce-checkout textarea{
+    height: 44px;
+    border: 2px solid;
+    font-family: 'ProximaNova-Regular';
+    padding: 0 3px;
+}
+.woocommerce-checkout .checkbox input[type=checkbox]{
+    position: initial;
+}
+.woocommerce-checkout-review-order .rp-checkout-subtotol td{
+    margin-bottom: 0;
+    font-size:25px;
+    font-family: 'ProximaNova-Bold';
+}
+.payment_box{background-color: #fff!important;font-size: 15px!important;}
+.payment_box:before{border:none!important;}
+.woocommerce-checkout #payment {
+    background: #fff;
+    border:none;
+}
+.woocommerce table.shop_table.woocommerce-checkout-review-order-table{
+    border: none;
+}
+table.rp-checkout-subtotol th, table.rp-checkout-subtotol td {
+    border: 0!important;
+}
+.woocommerce table.shop_table td,.woocommerce table.shop_table th{
+    border: 0;
+}
+/********-----------------------checkout page style end-------------------************/
+/******************************* order page start**************************************/
+ .woocommerce-button--next,.woocommerce-button--previous{
+    background: #971a4a !important;
+    color: #fff!important;
+    border-radius: 0 !important;
+}
+.woocommerce table.shop_table{
+    border: none;
+}
+.woocommerce table.shop_table tfoot th,.woocommerce table.shop_table tfoot td{border-top:0;}
+td.woocommerce-table__product-name.product-name a {
+    color: #000;
+    text-decoration: none;
+}
+/********************************** order page end *******************************/
+/*span.select2 {
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 0;
+    min-width: 200px!important;
+    color: #000;
+}*/
+/* span.select2 {
+    border: 1px solid #000!important;
+     border-radius: 0;
+} */
+.select2-results li{
+    color: #000!important;
+}
+
+.woocommerce-product-search input[type='submit']{
+position: absolute;
+right: 0;
+top: 0;
+max-width: 50px;
+padding: 8px;
+cursor: pointer;
+border-left: 0;
+background: url(http://profusenx.com/7/dts/wp-content/themes/dts/assets/images/search-icon.png);
+    background-repeat: repeat;
+color: transparent;
+background-repeat: no-repeat;
+background-size: initial;
+background-position-y: center;
+background-position-x: right;
+min-width: 0;
+}
+.woocommerce-product-search .search_filed input[type="search"]{
+    min-width: 250px;
+}
+
+
+.icon-search {
+    position: absolute;
+    right: 0;
+    top: -70px;
+    max-width: 50px;
+    padding: 14px;
+    cursor: pointer;
+}
+.search-form button.search-submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 50px;
+    padding: 20px; 
+    cursor: pointer;
+    background: transparent;
+    color: transparent;
+    border: none;
+}
+.search-form button.search-submit:focus{
+    outline: none;
+}
+
+
+span.onsale {
+    position: absolute;
+    background: #971a4a;
+    color: #fff;
+    padding: 0 10px;
+	z-index: 99;
+}
+
+.gallery ul li{float: left;}
+
+/**********Wish list**************/
+
+#rpwishlistModal .modal-footer .btn{border: none; background: #fff; color: #000;width: 100%;}
+#rpwishlistModal .modal-footer .btn:hover{border: none; background: #ddd;}
+#rpwishlistModal #addToWishListBtn{background: #971a4a;  color: #fff; text-transform: uppercase;}
+a#rp-add-to-wish-list {
+    display: block;
+    margin: 100px 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+a#rp-add-to-wish-list:hover{
+    text-decoration: none;
+    color: #000;
+}
+a#rp-add-to-wish-list img{
+    margin-right: 5px;
+}
+
+/******** shipping date **************/
+small.orddd_lite_field_note {
+    font-size: 12px;
+}
+input#e_deliverydate {
+    cursor: text !important;
+    border: 2px solid;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.ui-widget-header{
+    background: #971a4a;
+    background: #5cb7b3!important;
+}
+p#e_deliverydate_field {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+
+
+/***********************All ***********************/
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    color: #333;
+    text-align: center;
+    position: relative;
+    background: #eee url(http://i.stack.imgur.com/YYySO.png) no-repeat 50% 50%;
+}
+
+
+/*Custome Responsive*/
+
+@media only screen and (max-width:480px){
+   .rpmyaccount .myaccountHeading{display: none;}
+   .rpmyaccount .rpmyaccount-message{display: none;}
+    .rptitle{ font-size: 50px!important;}
+     .rpsubtitle{ font-size: 22px!important;}
+    
+    
+}
+
+@media only screen and (min-width:480px){
+    .woocommerce-ordering{margin-top: -50px;}
+}
+@media only screen and (max-width:550px){
+#signoutpop button.btn.cancle_btn,#signoutpop a.btn.logout_btn {
+
+    font-size: 14px;
+    letter-spacing: 0px;  
+    padding:7px;
+   
+}
+    .rptitle{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width:603px){
+    .selectcarat {
+    position: relative;
+    font-size: 12px;
+    width: 50%;
+    float: left;
+    min-width: 1px;
+    }
+    #bytag{width: 100%;font-size: 12px!important;}
+    .dropdown_product_cat{width: 100%;margin-left: 3px!important;font-size: 12px!important;}
+    .orderby:parent{width: 100%;}
+    .full-width{width: 100%;}
+}
+@media only screen and (max-width: 767px){
+   .tagline p {
+    display: block;
+    }
+} 
+@media only screen and (max-width:991px){
+    .mob_gallery{display: block!important;}
+    .product_title{text-align: left;}
+}
+@media only screen and (min-width:992px){
+    .rphomecatpic li{min-height: 277px;}
+}
+
+
+/*------------um style------------------*/
+ .select2.select2-container .select2-selection { border: 2px solid #0e0e0e!important;border-radius: 0;height:40px;padding-top: 6px; }
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 38px;
+}
+
+.select2-results__option--highlighted{ background-color:#971a4a!important;color:#fff!important;}
+.select2-container--default .select2-results__option[data-selected=true] {
+    background-color: #971a4a8c;
+    color: #fff!important;
+}
+option:checked {
+  color:#971a4a;
+}
+select option:focus {
+  background: red linear-gradient(0deg, red 0%, red 100%)!important;
+}
+.um-row-heading{ font-weight: 600; }
+
